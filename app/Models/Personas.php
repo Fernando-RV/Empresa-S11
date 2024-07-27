@@ -9,6 +9,6 @@ class Personas extends Model
 {
     use HasFactory;
     protected $primaryKey = 'nPerCodigo';
-    protected $fillable = ['cPerRnd', 'cPerApellido', 'cPerNombre', 'cPerDireccion', 'dPerFecNac', 'nPerEdad', 'nPerSueldo', 'nPerEstado'];
+    //protected $fillable = ['cPerRnd', 'cPerApellido', 'cPerNombre', 'cPerDireccion', 'dPerFecNac', 'nPerEdad', 'nPerSueldo', 'nPerEstado'];
     protected $guarded = [];
 }
